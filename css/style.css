@@ -1,0 +1,149 @@
+.back{
+  position:fixed;
+  
+  height:100%;
+  width: 100%;
+  
+  padding:0;
+  margin:0;
+  
+  top:0;
+  down:0;
+  left:0;
+  right:0;
+  
+  top:0;
+  down:0;
+  background:radial-gradient(#00b3b3,#004d4d);
+  
+  
+  justify-content:center;
+  align-items:center;
+}
+
+#queryInput{
+  position:relative;
+  
+  margin-top:10em;
+  margin-left:20em;
+  
+  background:transparent;
+  
+  font-family:Sans-Serif;
+  font-weight:bold;
+  
+  color:white;
+  
+  vertical-align:middle;
+  font-size:25px;
+  border: 4px solid yellow;
+  padding:2px;
+  padding-left:10px;
+  width:11em;
+  height:1.52em;
+  
+  transition-duration:0.2s;
+}
+
+#searchBtn{
+  position:absolute;
+    
+  margin-top:-3.75em;
+  margin-left:60em;
+  background:url(http://www.iconsdb.com/icons/preview/yellow/google-web-search-xxl.png);
+  
+  width:50px;
+  height:50px;
+  background-size:50px;
+  
+  border:none;
+  
+  transition-duration:0.2s;
+}
+
+#randomBtn{
+  position:absolute;
+  
+  margin-top:-3.75em;
+  margin-left:60em;
+  background:url(https://ufpjva-bn1305.files.1drv.com/y3mWa41yg4bVAK2KetKvq2hDObJZLLGVhjmxIL4PmWWIU5qETpsAEiFP_6MWzoH1svsj0PIDcnfc2FM0p3oPqtPzTZBKgyGqzCi9vdKze3q7ysDyyPTkMPp1c3zlBv2jRDLVZ_A6CVLe6wPpxSZhQiGCRQtloJhiiUpOoqTfMVZi94?width=531&height=529&cropmode=none);
+  
+  width:50px;
+  height:50px;
+  background-size:50px;
+  
+  border:none;
+  
+  transition-duration:0.2s;
+}
+
+.results{
+  position:relative;
+  width:700px;
+  height:50px;
+  margin-top:10px;
+  margin-left:20em;
+  padding:10px;
+  border: 6px inset #006666;
+  
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAEklEQVQYlWNgoBIwpljB0LcCAK4GATPMuB9fAAAAAElFTkSuQmCC);
+  background-color:white;
+  overflow:hidden;
+  text-overflow:ellipse;
+}
+
+.results:hover{
+  border: 6px solid yellow;
+}
+
+#entry0{
+
+  margin-top:-5em;
+}
+
+#wiki_letter{
+  position:absolute;
+  width:60px;
+  margin-top:2em;
+  margin-left:32em;
+  z-index:10;
+}
+
+#page_title{
+  position:absolute;
+  margin-top:1.15em;
+  margin-left:14.4em;
+  color:#ffcc00;
+  font-size:40px;
+ 
+}
+
+#no_articles{
+  position:absolute;
+  margin-top:12.15em;
+  margin-left:30.4em;
+  color:yellow;
+  font-size:20px;
+  visibility:hidden;
+  display:block;
+  background-color:black;
+  padding:7px;
+  border-radius:5px;
+  background: rgba(25, 25, 25, .5);
+}
+
+.headers{
+  
+  top:0;
+  margin-top:-12px;
+  
+  font-size:20px;
+  font-weight:bold;
+}
+
+.intros{
+  
+  top:0;
+  margin-top:-14px;
+  text-align:justify;
+}
